@@ -1,0 +1,44 @@
+.footer-tag{
+    height: 15vh;
+    width: 100%;
+    background-color: #231955;
+}
+.footer-tag--{
+    padding-left: 30rem;
+    padding-top: 1.3rem;
+}
+.footer-tag h3{
+    color: #F96666;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 0.4rem;
+}
+.footer-tag h3:nth-child(1){
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+@media screen and (max-width:1024px){
+    .footer-tag--{
+      text-align: center;
+      padding-left: 2rem;
+    }
+    .footer-tag{
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer-tag{
+        width: 125%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .footer-tag{
+        width: 230%
+    }
+}

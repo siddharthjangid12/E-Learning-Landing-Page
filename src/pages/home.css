@@ -1,0 +1,16 @@
+.home-banner-image{
+    height: 700px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .home-banner-image{
+       width: 125%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .home-banner-image{
+        width: 230%;
+    }
+}

@@ -1,0 +1,89 @@
+.course-image{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #F96666;
+    margin-left: 2rem;
+}
+.product h2{
+    color: #F96666;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-left: 24rem;
+    margin-top: 3rem;
+}
+.product span:nth-child(1){
+    color: #231955;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.course-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem 2rem;
+    gap: 0.5rem;
+    padding-top: 3rem;
+    padding-left: 8rem;
+}
+.course-list h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #F96666;
+    padding-left: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.course-list span{
+    padding-left: 7rem;
+}
+.course-list i{
+    color: #F96666;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.course-list h5{
+    color: #231955;
+    padding-left: 9rem;
+}
+.course-btn{
+    background-color: #F96666;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #F96666;
+    font-size: 1.2rem;
+    margin-left: 7.7rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+.course-btn:hover{
+background-color: #231955;
+color: white;
+border: 1px solid #231955;
+transform: scale(0.8);
+}
+
+@media screen and (max-width:1024px){
+    .product h2{
+        margin-left: 16.7rem;
+    }
+    .course-list{
+        padding-left: 6rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .course-list{
+        gap: 4rem;
+        padding-left: 4rem;
+    }
+    .course-list h3{
+        font-size: 20px;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .product h2{
+        margin-right: -23rem;
+        padding-left: 0rem;
+    }
+}
